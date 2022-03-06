@@ -43,7 +43,13 @@ h4{
     color: beige;
 }
 body{
-    /* background: url(https://st4.depositphotos.com/22322574/30889/i/450/depositphotos_308899106-stock-photo-abstract-defocused-light-pink-background.jpg); */
+    background: url(https://st4.depositphotos.com/22322574/30889/i/450/depositphotos_308899106-stock-photo-abstract-defocused-light-pink-background.jpg);
     width: 50%;
     height: 50%;
+}
+
+.Articles{
+    text-align: right;
+    width: 2cm;
+    height: 2cm;
 }
