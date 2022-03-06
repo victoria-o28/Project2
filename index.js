@@ -73,3 +73,35 @@ if ((d <= 0) || (d > 31)) {
     returnDayOfWeek(d, m, y, gender)
 }
 
+function returnDayOfWeek(d, m, y, gender) {
+    const DD = +d;
+    const MM = +m;
+    const CC = +19;
+    // const CC = y.length === 4 ? +y.slice(0, 2) : +0;
+    const YY = +y.slice(-2);
+
+    console.log('DD', DD);
+    console.log('MM', MM);
+    console.log('CC', CC);
+    console.log('YY', YY);
+
+    const dayOfWeek = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7
+
+    returnAknanName(Math.round(dayOfWeek), gender);
+}
+
+function returnAknanName(dayOfWeek, gender) {
+    console.log(dayOfWeek, gender)
+    let aknanName = ''
+    if (gender === 'MALE') {
+        for (let i = 0; i < males.length; i++) {
+            aknanName = males[dayOfWeek].name;
+        }
+    } else {
+        for (let i = 0; i < females.length; i++) {
+            aknanName = females[dayOfWeek].name;
+        }
+    }
+    console.log('Aknan Name: ', aknanName);
+    return aknanName;
+}
