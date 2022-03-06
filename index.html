@@ -37,42 +37,54 @@
         <form id="calc-form">
             <h4>Birth Calculator</label>
 
-            <div class="flex-container">
-                <label style="color: black; padding-top: 10px;">Enter Your Birth-date (DD/MM/YYYY)</label>
-                <div>
-                    <input type="number" placeholder="DD" id="dd" style="margin-left: 20px; width: 50px; height: 30px;">
+                <div class="flex-container">
+                    <label style="color: black; padding-top: 10px;">Enter Your Birth-date (DD/MM/YYYY)</label>
+                    <div>
+                        <input type="number" placeholder="DD" id="dd"
+                            style="margin-left: 20px; width: 50px; height: 30px;">
+                    </div>
+                    <div>
+                        <input type="number" placeholder="MM" id="mm"
+                            style="margin-left: 20px; width: 50px; height: 30px;">
+                    </div>
+                    <div>
+                        <input type="number" placeholder="YYYY" id="yyyy"
+                            style="margin-left: 20px; width: 50px; height: 30px;">
+                    </div>
                 </div>
-                <div>
-                    <input type="number" placeholder="MM" id="mm" style="margin-left: 20px; width: 50px; height: 30px;">
-                </div>
-                <div>
-                    <input type="number" placeholder="YYYY" id="yyyy" style="margin-left: 20px; width: 50px; height: 30px;">
-                </div>
-            </div>
 
-            <div class="flex-container">
-                <label style="color: black; padding-top: 10px;">Choose Your Gender</label>
+                <div class="flex-container">
+                    <label style="color: black; padding-top: 10px;">Choose Your Gender</label>
 
-                <div style="width: 160px;">
-                    <input type="radio" id="male" name="gender" style="margin-left: 20px; width: 50px; height: 20px;" value="MALE">
-                    <label for="male">Male</label>
+                    <div style="width: 160px;">
+                        <input type="radio" id="male" name="gender"
+                            style="margin-left: 20px; width: 50px; height: 20px;" value="MALE">
+                        <label for="male">Male</label>
+                    </div>
+                    <div style="width: 160px;">
+                        <input type="radio" id="female" name="gender"
+                            style="margin-left: 20px; width: 50px; height: 20px;" value="FEMALE">
+                        <label for="female">Female</label>
+                    </div>
                 </div>
-                <div style="width: 160px;">
-                    <input type="radio" id="female" name="gender" style="margin-left: 20px; width: 50px; height: 20px;" value="FEMALE">
-                    <label for="female">Female</label>
-                </div>
-            </div>
 
-            <div class="flex-container"  style="padding-top: 3%;">
-                <input type="submit" onclick="onSubmit()">
+                <div class="flex-container" style="padding-top: 3%;">
+                    <input type="submit" onclick="onSubmit()">
 
-                <div >
-                    
+                    <div>
+
+                    </div>
                 </div>
-            </div>
 
         </form>
     </div>
+    <div class="Articles">
+        <p>
+            <h3>Article</h3><a
+                href="https://www.psychologytoday.com/us/blog/the-red-light-district/202004/10-fun-facts-about-birthdays">
+                You can read this blog about 10-fun-facts-about-birthdays</a>
+
+        </p>
 </body>
 
 </html>
