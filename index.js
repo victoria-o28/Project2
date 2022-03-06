@@ -62,15 +62,15 @@ function onSubmit() {
     const d = document.getElementById("dd").value;
     const m = document.getElementById("mm").value;
     const y = document.getElementById("yyyy").value;
-    const gender = document.querySelector('input[name="gender"]:checked').value; 
-}
+    const gender = document.querySelector('input[name="gender"]:checked').value;
 
-if ((d <= 0) || (d > 31)) {
-    window.alert('Enter a valid day!');
-} else if ((m <= 0) || (m > 12)) {
-    window.alert('Enter a valid month!');
-} else {
-    returnDayOfWeek(d, m, y, gender)
+    if ((d <= 0) || (d > 31)) {
+        window.alert('Enter a valid day!');
+    } else if ((m <= 0) || (m > 12)) {
+        window.alert('Enter a valid month!');
+    } else {
+        returnDayOfWeek(d, m, y, gender)
+    }
 }
 
 function returnDayOfWeek(d, m, y, gender) {
