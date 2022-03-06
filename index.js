@@ -58,3 +58,9 @@ const females = [{
     },
 ];
 
+function onSubmit() {
+    const d = document.getElementById("dd").value;
+    const m = document.getElementById("mm").value;
+    const y = document.getElementById("yyyy").value;
+    const gender = document.querySelector('input[name="gender"]:checked').value; 
+}
