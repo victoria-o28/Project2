@@ -1,23 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link href="css/home.css" rel="stylesheet" type="text/css" media="all">
+    <script src="index.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>V~Calculator</title>
-    <img src="Top_Background.webp" alt="A background photo">
 </head>
-<body>
-    <p>Hey There! <br> Ever wonder what day you were born on? Was it a Monday right after 
-        a weekend? Or was it a Friday? Well, wonder no more!
-        Our Day of Birth Calculator is an exciting way to be nostalgic about the
-         meticulous day you entered the world. You can also use it to calculate
-        any other Person's day of birth.And yes, we do include Leap Years for those 
-        lucky February 29th folks!
 
-        Use this simple birthday calculator to find the day of the week of birth based
-        on a birthdate.
-    </p> 
+<body>
+    <div class="container">
+        <img src="Top_Background.webp" alt="A background photo">
+        <div class="bottom-left">
+            Calculate Day of the Week you were born!
+        </div>
+    </div>
+
+    <div class="intro">
+        <h4>What Day of the Week were you Born on?</h4>
+
+        <p>Hey There! <br> Ever wonder what day you were born on? Was it a Monday right after
+            a weekend? Or was it a Friday? Well, wonder no more!
+            Our Day of Birth Calculator is an exciting way to be nostalgic about the
+            meticulous day you entered the world. You can also use it to calculate
+            any other Person's day of birth.And yes, we do include Leap Years for those
+            lucky February 29th folks!
+
+            Use this simple birthday calculator to find the day of the week of birth based
+            on a birthdate.
+        </p>
+    </div>
+
+    <div class="calculator-section">
+        <form id="calc-form">
+            <h4>Birth Calculator</label>
+
+            <div class="flex-container">
+                <label style="color: black; padding-top: 10px;">Enter Your Birth-date (DD/MM/YYYY)</label>
+                <div>
+                    <input type="number" placeholder="DD" id="dd" style="margin-left: 20px; width: 50px; height: 30px;">
+                </div>
+                <div>
+                    <input type="number" placeholder="MM" id="mm" style="margin-left: 20px; width: 50px; height: 30px;">
+                </div>
+                <div>
+                    <input type="number" placeholder="YYYY" id="yyyy" style="margin-left: 20px; width: 50px; height: 30px;">
+                </div>
+            </div>
+
+            <div class="flex-container">
+                <label style="color: black; padding-top: 10px;">Choose Your Gender</label>
+
+                <div style="width: 160px;">
+                    <input type="radio" id="male" name="gender" style="margin-left: 20px; width: 50px; height: 20px;" value="MALE">
+                    <label for="male">Male</label>
+                </div>
+                <div style="width: 160px;">
+                    <input type="radio" id="female" name="gender" style="margin-left: 20px; width: 50px; height: 20px;" value="FEMALE">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+
+            <div class="flex-container"  style="padding-top: 3%;">
+                <input type="submit" onclick="onSubmit()">
+
+                <div >
+                    
+                </div>
+            </div>
+
+        </form>
+    </div>
 </body>
+
 </html>
