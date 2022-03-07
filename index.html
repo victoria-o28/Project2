@@ -11,6 +11,7 @@
 </head>
 
 <body>
+
     <div class="link">
         <h1>Akan Names</h1>
         <ul>
@@ -18,7 +19,8 @@
         </ul>
     </div>
 
-    <div class="container">
+    <div class="container" style="background-image: url('Flag.jpg');">
+
 
         <div class="intro">
             <h4>What Day of the Week were you Born on?</h4>
@@ -37,7 +39,7 @@
         <div class="clear"></div>
 
         <div class="calculator-section">
-            <form id="calc-form">
+            <form id="calc-form" action="#" onsubmit="onSubmit(); return false">
                 <h4>Birth Calculator</label>
 
                     <div class="flex-container">
@@ -72,20 +74,14 @@
                     </div>
 
                     <div class="flex-container" style="padding-top: 3%;">
-                        <input type="submit" onclick="onSubmit()">
+                        <input type="submit">
                     </div>
 
                     <div>
                         Your Akan Name is: <span id="aknan-name"></span>
                     </div>
 
-
-            </form>
-
         </div>
-        <div class="clear"></div>
-        <br>
-        <img src="Ghanian_child.jpg" alt="A background photo">
         <div class="bottom-left" id="bold">
             Calculate Day of the Week you were born using the Akan naming system! <br> Akan names are derived from
             Ghanian culture. <br>
@@ -94,6 +90,9 @@
             <a href="https://en.wikipedia.org/wiki/Akan_names">READ MORE</a>
         </div>
     </div>
+
+
+    </form>
 
 
     <footer>
