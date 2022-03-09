@@ -21,7 +21,6 @@
  
  * JavaScript - To add functionality and form validation.
 
- * jquery - For user input validation.
 [Go Back to the top](#akan-names)
 
 ## License
