@@ -11,8 +11,7 @@
 ## Description.
 <p>This web application that generate the day of the week you were born based on your gender and day of birth using an Akan-Naming system.</p>
 
-## Live Link
-<p>Here is the live website URL: https://victoria-o28.github.io/Project2/ </p> 
+[![Akan-Names-V.png](https://i.postimg.cc/cHmxVtD5/Akan-Names-V.png)](https://postimg.cc/mzPW9kWQ)
 
 ## Technologies Used
 * HTML - which was used to build the structure of the pages.
