@@ -14,6 +14,7 @@
 ## Live Link
 <p>Here is the live website URL: https://victoria-o28.github.io/Project2/ </p> 
 [Go Back to the top](#my-portfolio)
+
 ## Technologies Used
 * HTML - which was used to build the structure of the pages.
  
@@ -23,7 +24,9 @@
 
  * jquery - For user input validation.
 [Go Back to the top](#akan-names)
+
 ## License
 [MIT License](LICENSE)
+
 ## Authors Info
 * Linked In- https://www.linkedin.com/in/victoria-odhiambo-a9927220a/
