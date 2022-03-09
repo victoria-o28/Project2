@@ -13,6 +13,10 @@
 
 [![Akan-Names-V.png](https://i.postimg.cc/cHmxVtD5/Akan-Names-V.png)](https://postimg.cc/mzPW9kWQ)
 
+## Live Link
+<p>Here is the live website URL: https://victoria-o28.github.io/Project2/ </p> 
+
+
 ## Technologies Used
 * HTML - which was used to build the structure of the pages.
  
